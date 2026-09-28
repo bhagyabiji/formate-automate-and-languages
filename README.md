@@ -1,0 +1,37 @@
+Theory of Computation
+--------
+Alphabet - An alphabet is a finite, non-empty set of symbols.
+Example:
+  Σ ={0,1}
+  Here 0 and 1 are symbols.
+
+String - finite sequence of symbols from an alphabet
+for eg:-  Σ ={0,1}
+  0 → string
+  1 → string
+  01 → string
+  10110 → string
+  001011 → string
+
+Empty string - The empty string contains no symbols. It is represented by: ϵ
+
+Language- language is a set of strings over an alphabet.
+  For example: Σ={0,1}
+     L = {0, 01, 101, 111}
+
+If
+  Σ={0,1}
+then:
+  Σ^0={ϵ}
+  Σ^1={a,b}
+  Σ^2={aa,ab,ba,bb}
+  Σ^3={aaa,aab,aba,abb,bbb,bab,baa,bba}
+
+So Σ∗ contains all possible finite strings, including ϵ (epsilon).
+
+  For an alphabet containing n symbols:
+          ∣Σ^k∣=n^k
+
+For an alphabet of size n, number of strings of length at most k:
+                  1+n+n^2+⋯+n^k
+
